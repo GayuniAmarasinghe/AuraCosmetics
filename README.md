@@ -7,60 +7,105 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+# Aura Cosmetics _CRM & E-Commerce website_
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Table of Content
+- [Introduction](#introduction)
+- [Features](#features)
+- [Interfaces](#interfaces)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Technologies Used](#technologies-used)
+- [License](#license)
+- [Documentation](#documentation)
+## Introduction
+Introducing our state-of-the-art Hair Studio system, a seamless fusion of CRM and E commerce designed for salons. Elevate your salon experience with effortless appointment 
+bookings, product shopping, staying connected with your favorite stylists and a world of 
+beauty at your fingertips. Experience the future of salon services with us!
+## Features
+Website Features for Customers:
+- Create an account on the website.
+- Robust user authentication and secure login mechanisms to ensure the safety.
+- A user-friendly interface for seamless browsing.
+- Search for a variety of hair and beauty services.
+- View detailed information about each service.
+- Browse seasonal offers and discounts.
+- View service details, including pricing and duration.
+- Add bookings and reserve a preferred time slot.
+- Make secure online payments for services.
+- Leave reviews and ratings for services.
+- Subscribe to the salon newsletter for updates and promotions.
+CRM Features for Admin and Staff:
+*Admin User Special Feature:*
+- Create and manage user accounts for both staff and customers.
+*Admin and Staff Shared Features:*
+- Manage the website, including adding, updating, and deleting services.
+- A user-friendly interface.
+- Access and view customer reviews and ratings.
+- Collect and maintain customer contact details and allergies for personalized service.
+- Maintain a record of stylists, their schedules, and availability.
+- Manage products and inventory used for various services.
+- Create and send newsletters to customers.
+- Access analytics data, including:
+- Number of registered users.
+- Most booked services.
+- Monthly revenue reports.
+- Representation of customer reviews and ratings.
+- Identify the most booked stylist for staffing optimization.
+## Interfaces
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
+## Prerequisites
+- PHP 8 or higher
+- Composer
+- Node.js
+- NPM
+- MySQL
+ 
+## Installation
+1. Clone the repository
+ bash
+ https://github.com/anngithub1234/SalonHair.git
+ 
+2. Install dependencies
+ ```bash
+ composer install
+ npm install
+ npm run dev
+ ```
+3. Configure environment variables
+ ```bash
+ cp .env.example .env
+ ```
+4. Run Migrations
+ ```bash
+ php artisan migrate
+ ```
+5. Serve the application
+ ```bash
+ php artisan serve
+ ```
+6. Run the build
+ ```bash
+ npm run dev
+ ```
+## Technologies Used
+- Frameworks: Laravel, 
+- JavaScript Framework: Alpine.js
+- CSS Framework: Tailwind CSS
+- Application Scaffolding: Laravel Jetstream
+- Libraries: Livewire, Chart.js
+- Languages: PHP, JavaScript
+- Database: MySQL
+- Testing email functionality: MailTrap
 ## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT 
+license](https://opensource.org/licenses/MIT).
+## Documentation
+- [Aura Cosmetics][SSP2 INDIVIDUAL ASSIGNMENT.pdf](https://github.com/GayuniAmarasinghe/AuraCosmetics/files/12924801/SSP2.INDIVIDUAL.ASSIGNMENT.pdf)
+- [Laravel](https://laravel.com/docs/8.x)
+- [Tailwind CSS](https://tailwindcss.com/docs/installation)
+- [Alpine.js](https://alpinejs.dev/)
+- [jetstream](https://jetstream.laravel.com/introduction.html)
+- [Livewire](https://laravel-livewire.com/docs/2.x/quickstart)
+- [MailTrap](https://mailtrap.io/)
