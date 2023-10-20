@@ -20,9 +20,9 @@
 - [License](#license)
 - [Documentation](#documentation)
 ## Introduction
-Introducing our state-of-the-art Hair Studio system, a seamless fusion of CRM and E commerce designed for salons. Elevate your salon experience with effortless appointment 
-bookings, product shopping, staying connected with your favorite stylists and a world of 
-beauty at your fingertips. Experience the future of salon services with us!
+Introducing our  Aura Cosmetics, a seamless fusion of CRM and E commerce designed for salons. Elevate your shop experience with effortless appointment 
+bookings, product shopping, staying connected with your favorite products and a world of 
+beauty at your fingertips. Unlock the secrets of radient beauty with us!
 ## Features
 Website Features for Customers:
 - Create an account on the website.
